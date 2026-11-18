@@ -33,20 +33,13 @@
 ## Dia 2 — `vector`, `pair`, `sort`, busca binária
 - **Explicação:** `vector` (push_back amortizado O(1), reserve), `pair`/`tuple`, `sort` O(n log n) com comparador, `lower_bound`/`upper_bound` em vetor ordenado O(log n), `unique`, compressão de coordenadas, dois ponteiros após ordenar, busca binária na resposta.
 - **Armadilhas:** comparador com `<=`; `sort` em `vector<pair>` e critério de desempate; `lower_bound` em `set` com a função livre (vira O(n)); `v.size() - 1` com `size_t` e vetor vazio; `lo + hi` estourando e overflow dentro da função de checagem da busca binária.
-- **Exercícios (dificuldade crescente, ~4 h):**
-  - Fáceis (sintaxe e lógica):
-    1. Distinct Numbers — CSES
-    2. Next Round (158A) — Codeforces
-    3. Apartments — CSES
-    4. Ferris Wheel — CSES
-  - Médios (contextualizados):
-    5. Sum of Two Values — CSES (`pair` valor/índice)
-    6. Stick Lengths — CSES
-    7. Books (279B) — Codeforces (prefixos + `upper_bound`)
-    8. Factory Machines — CSES (busca binária na resposta)
-  - Difícil (junta os tópicos do dia):
-    9. Sum of Four Values — CSES (tentar com `lower_bound`)
-  - Extras: Array Division, Tasks and Deadlines, Movie Festival — CSES; Maximum Median (1201C) — Codeforces
+- **Exercícios (foco em conceito e sintaxe; 5 prioritários):**
+  1. Distinct Numbers — CSES (`vector`, `sort`, vizinho) — concluído
+  2. Apartments — CSES (dois ponteiros em vetores ordenados)
+  3. Sum of Two Values — CSES (`pair` valor/índice)
+  4. Books (279B) — Codeforces (prefixos + `upper_bound`)
+  5. Factory Machines — CSES (busca binária na resposta; trocar por Ferris Wheel se pesar)
+  - Extras: Next Round (158A), Ferris Wheel, Stick Lengths, Sum of Four Values, Array Division, Tasks and Deadlines, Movie Festival — CSES/Codeforces; Maximum Median (1201C) — Codeforces
 - **Revisão:** 2-3 perguntas no fim do dia.
 
 ## Dia 3 — `set`, `multiset`, `map`
