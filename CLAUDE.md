@@ -14,9 +14,11 @@ Toda semana o time escolhe **um assunto** e **um desafio muito difícil** desse 
 
 ## Assunto da semana
 
-- C++ com STL: `vector`, `pair`, `set`, `map`, `priority_queue`, `sort`, `lower_bound`
-- Leitura e escrita rápida, tipos (`int` vs `long long`, overflow)
-- Análise de complexidade: estimar se uma solução passa no tempo (cerca de 10^8 operações simples por segundo)
+Semana 02 (ver `docs/semana-02/roadmap.md`), misturada com o que ficou pendente da Semana 01:
+
+- Técnicas básicas: simulação e implementação cuidadosa, força bruta e enumeração de casos, backtracking (subconjuntos e permutações), recursão
+- Herdado da Semana 01: `set`, `multiset`, `map`, `priority_queue` e comparadores, integração das estruturas
+- Continua valendo: I/O rápido, `int` vs `long long`, estimativa de complexidade (cerca de 10^8 operações simples por segundo)
 
 ## Nível do desafio (só para calibrar)
 

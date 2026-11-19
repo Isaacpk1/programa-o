@@ -1,6 +1,6 @@
 # Semana 01 — C++ STL, I/O rápido, tipos e complexidade
 
-**Status:** em andamento. Diagnóstico dispensado (conhecimento inicial baixo em STL): os Dias 2 a 5 são explicados do zero, com exemplos.
+**Status:** encerrada no Dia 2. Os Dias 3, 4 e 5 foram movidos para a [Semana 02](../semana-02/roadmap.md), misturados com as técnicas novas. Diagnóstico dispensado (conhecimento inicial baixo em STL): os Dias 2 a 5 são explicados do zero, com exemplos.
 **Horas por dia:** ~4 h
 **Estrutura:** Dias 1 a 5 = estudo com o tutor. Dias 6 e 7 = livres para o desafio da semana (sem IA).
 
@@ -30,7 +30,7 @@
   5. Theatre Square (problema 1A) — Codeforces (opcional, treina overflow e divisão com arredondamento para cima)
 - **Revisão:** 2-3 perguntas no fim do dia.
 
-## Dia 2 — `vector`, `pair`, `sort`, busca binária
+## Dia 2 — `vector`, `pair`, `sort`, busca binária (concluído)
 - **Explicação:** `vector` (push_back amortizado O(1), reserve), `pair`/`tuple`, `sort` O(n log n) com comparador, `lower_bound`/`upper_bound` em vetor ordenado O(log n), `unique`, compressão de coordenadas, dois ponteiros após ordenar, busca binária na resposta.
 - **Armadilhas:** comparador com `<=`; `sort` em `vector<pair>` e critério de desempate; `lower_bound` em `set` com a função livre (vira O(n)); `v.size() - 1` com `size_t` e vetor vazio; `lo + hi` estourando e overflow dentro da função de checagem da busca binária.
 - **Exercícios (foco em conceito e sintaxe; 5 prioritários):**
@@ -42,7 +42,7 @@
   - Extras: Next Round (158A), Ferris Wheel, Stick Lengths, Sum of Four Values, Array Division, Tasks and Deadlines, Movie Festival — CSES/Codeforces; Maximum Median (1201C) — Codeforces
 - **Revisão:** 2-3 perguntas no fim do dia.
 
-## Dia 3 — `set`, `multiset`, `map`
+## Dia 3 — `set`, `multiset`, `map` (movido para o Dia 2 da Semana 02)
 - **Explicação:** árvore balanceada, O(log n) por operação, iteradores, `lower_bound`/`upper_bound` como método, `begin()`/`prev(end())`, `erase` por valor vs por iterador, `map` com `operator[]` vs `find`/`count`.
 - **Armadilhas:** `m[x]` cria a chave; `multiset::erase(x)` apaga todos os iguais; iterar e apagar ao mesmo tempo; `set` de `pair` com desempate.
 - **Exercícios:**
@@ -53,7 +53,7 @@
   5. (a definir pelo tutor) — Codeforces
 - **Revisão:** 2-3 perguntas.
 
-## Dia 4 — `priority_queue` e comparadores personalizados
+## Dia 4 — `priority_queue` e comparadores personalizados (movido para o Dia 3 da Semana 02)
 - **Explicação:** max-heap por padrão, min-heap com `greater<>`, heap de `pair`/`tuple`, comparador próprio com `struct`, push/pop O(log n), top O(1), remoção "preguiçosa" (lazy deletion) quando o elemento não está mais válido.
 - **Armadilhas:** esquecer o `greater<>`; `top()` em fila vazia; comparador que não é ordem fraca estrita; custo de copiar structs grandes.
 - **Exercícios:**
@@ -64,7 +64,7 @@
   5. (a definir pelo tutor) — Codeforces
 - **Revisão:** 2-3 perguntas.
 
-## Dia 5 — Integração e complexidade
+## Dia 5 — Integração e complexidade (movido para o Dia 5 da Semana 02)
 - **Explicação:** combinar as estruturas, checklist antes de submeter (limites, overflow, I/O, casos de borda), como estimar tempo e memória, como testar com entrada máxima.
 - **Exercícios:**
   1. Sliding Window Cost — CSES

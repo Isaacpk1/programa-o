@@ -4,7 +4,8 @@ Cada semana tem uma pasta `semana-NN/` com o `roadmap.md` daquela semana.
 
 | Semana | Assunto | Status |
 |--------|---------|--------|
-| [01](semana-01/roadmap.md) | C++ STL, I/O rápido, tipos e complexidade | Em andamento (Dia 2 em curso) |
+| [01](semana-01/roadmap.md) | C++ STL, I/O rápido, tipos e complexidade | Encerrada no Dia 2 (Dias 3-5 movidos para a 02) |
+| [02](semana-02/roadmap.md) | Simulação, força bruta, backtracking, recursão + `set`/`map`/`priority_queue` | Planejada |
 
 ## Como cada roadmap é montado
 
